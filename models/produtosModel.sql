@@ -6,7 +6,6 @@ CREATE TABLE produtos (
   preco DECIMAL(10, 2) NOT NULL,
   data_atualizado DATETIME NOT NULL
 );
-
-
+INSERT INTO produtos (nome, preco, descricao) VALUES ('Placa de Vídeo', 599.99, 'GTX 1050 TI');
 
 

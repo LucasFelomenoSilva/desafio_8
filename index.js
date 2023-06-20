@@ -20,7 +20,7 @@ const connection = mysql.createConnection({
 });
 
 app.get('/', (req, res) => {
-    res.send('Bem-vindo à minha aplicação!');
+    res.send('Desafio 08-2 Back-End 2');
 });
 
 const clientesRouter = require('./routes/clientes');
